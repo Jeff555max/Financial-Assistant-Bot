@@ -34,7 +34,8 @@ pip install aiogram requests sqlite3
 TOKEN = "ВАШ_ТОКЕН"
 
 Зарегистрируйтесь на сайте https://www.exchangerate-api.com/ - api для просмотра курса валют
-и получите API_KEY
+и получите API_KEY.
+
 Вставьте его в файле FinanceBot.py
 
 3. Запуск бота
