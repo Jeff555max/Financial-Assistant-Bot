@@ -189,7 +189,7 @@ async def db(message: Message):
     users = cur.fetchall()
     if users:
         response = "Содержимое БД:\n\n"
-        # Далее для каждого студента мы добавляем строку в `response`, содержащую его имя и возраст
+        # Далее для каждого user мы добавляем строку в `response`
         for user in users:
             response += (f"Имя: {user[2]}\n"
                          f"Категория 1: {user[3]} (расходы - {user[6]})\n"
