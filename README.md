@@ -36,7 +36,7 @@ TOKEN = "ВАШ_ТОКЕН"
 Зарегистрируйтесь на сайте https://www.exchangerate-api.com/ - api для просмотра курса валют
 и получите API_KEY.
 
-Вставьте его в файле FinanceBot.py
+Вставьте его в файле FinanceBot.py в строку url = 'https://v6.exchangerate-api.com/v6/Введите Ваш API_KEY/latest/USD'
 
 3. Запуск бота
 
