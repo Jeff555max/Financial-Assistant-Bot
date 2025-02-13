@@ -1,6 +1,4 @@
-#для создания клавиатур библиотеки
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
-from aiogram.utils.keyboard import ReplyKeyboardBuilder, InlineKeyboardBuilder
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 button_registr = KeyboardButton(text='Регистрация в ТГ-боте')
 button_exchage_rates = KeyboardButton(text='Курс валют')
